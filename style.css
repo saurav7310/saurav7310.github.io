@@ -1,0 +1,50 @@
+.input {
+  /* align-items: center; */
+  width: 80%;
+  margin: auto;
+  padding: 30px 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  margin: 20px 0px;
+}
+input {
+  height: 40px;
+}
+#add {
+  height: 40px;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+}
+
+.cmntCont {
+  width: 80%;
+}
+.cmntSec {
+  border: 1px solid deeppink;
+  padding-left: 10px;
+}
+button {
+  background-color: white;
+  border: none;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+#add {
+  height: 40px;
+  background-color: rgb(160, 136, 239);
+  border-radius: 5px;
+  color: black;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font-family: cursive;
+}
+#add:hover {
+  background-color: rgb(92, 92, 234);
+  color: white;
+}
